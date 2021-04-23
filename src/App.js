@@ -9,8 +9,6 @@ function App() {
   const [search,setSearch] = useState('');
   const [query ,setQuery] = useState('');
   
-  const APP_ID ="3549061e";
-  const APP_KEY="53b581f3afb6e853cfda4b9178b88c52";
   const CALL_URL = `https://api.edamam.com/search?q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`;
   
   const callApi = async()=>{
